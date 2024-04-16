@@ -1615,7 +1615,7 @@ MVSDKEXPORT_API int __stdcall MV_XML_GetGenICamXML(IN void* handle, IN OUT unsig
  *  @param  penAccessMode               [OUT]           Access mode of the node
  *  @return Success, return MV_OK. Failure, return error code
  ***********************************************************************/
-MVSDKEXPORT_API int __stdcall MV_XML_GetNodeAccessMode(IN void* handle, IN const char * pstrName, OUT enum MV_XML_AccessMode *penAccessMode);
+MVSDKEXPORT_API int __stdcall MV_XML_GetNodeAccessMode(IN void* handle, IN const char * pstrName, OUT MV_XML_AccessMode *penAccessMode);
 
 /********************************************************************//**
  *  @~chinese
@@ -1634,7 +1634,7 @@ MVSDKEXPORT_API int __stdcall MV_XML_GetNodeAccessMode(IN void* handle, IN const
  *  @return Success, return MV_OK. Failure, return error code
  *  @remarks The interface can know the node type in advance before calling the universal interface, so as to facilitate users to select the appropriate universal interface for setting and obtaining the node value.
  ***********************************************************************/
-MVSDKEXPORT_API int __stdcall MV_XML_GetNodeInterfaceType(IN void* handle, IN const char * pstrName, OUT enum MV_XML_InterfaceType *penInterfaceType);
+MVSDKEXPORT_API int __stdcall MV_XML_GetNodeInterfaceType(IN void* handle, IN const char * pstrName, OUT MV_XML_InterfaceType *penInterfaceType);
 
 /************************************************************************/
 /* 附加接口                                   							*/
