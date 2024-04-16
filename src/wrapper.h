@@ -1,0 +1,8 @@
+#include "CameraParams.h"
+#include "MvCameraControl.h"
+#include "MvErrorDefine.h"
+#include "MvISPErrorDefine.h"
+#include "MvObsoleteInterfaces.h"
+#include "MvSdkExport.h"
+#include "PixelType.h"
+#include "ObsoleteCamParams.h"
