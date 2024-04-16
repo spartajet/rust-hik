@@ -1,0 +1,1 @@
+rust binding for hik vision sdk V4.3.1
